@@ -1,7 +1,7 @@
 
 # Proyecto ICAIF - Base de Datos de Ventas
 
-Este repositorio contiene la estructura y carga inicial de una base de datos relacional orientada a la gestión de ventas para el proyecto ICAIF.
+Este repositorio contiene la estructura, carga inicial y consultas SQL de una base de datos relacional orientada a la gestión de ventas para el proyecto ICAIF.
 
 ## 📌 Descripción del proyecto
 
@@ -9,18 +9,18 @@ La base de datos fue diseñada para una tienda que gestiona categorías de produ
 
 ## 🧱 Estructura de Tablas
 
-- **Categoria**: clasificaciones de productos
-- **Producto**: detalles del inventario por categoría
-- **Cliente**: datos personales del cliente
-- **Venta**: información general de cada transacción
-- **DetalleVenta**: productos específicos vendidos en cada venta
+- **Categoria**: clasificaciones de productos.
+- **Producto**: detalles del inventario por categoría.
+- **Cliente**: datos personales del cliente.
+- **Venta**: información general de cada transacción.
+- **DetalleVenta**: productos específicos vendidos en cada venta.
 
 ## 🧪 Tecnologías
 
 - SQL Server / T-SQL
-- Instrucciones DDL (CREATE, ALTER)
-- Integridad referencial (FOREIGN KEYS)
-- Inserciones de datos (INSERT INTO)
+- Instrucciones DDL (CREATE, ALTER, INSERT)
+- Claves foráneas (FOREIGN KEYS)
+- Consultas con filtros, joins, agrupaciones
 
 ## 📂 Ejemplo de tabla
 
@@ -33,16 +33,33 @@ CREATE TABLE Categoria (
 );
 ```
 
-## 📄 Contenido
+---
 
-- Estructura de la base de datos
-- Inserciones de prueba
-- Consultas SELECT
+## 🧾 Contenido del Repositorio
 
-## 🔗 Archivo principal
+### 📁 `BD_Venta.sql`
 
-Puedes ver el archivo SQL completo aquí:  
-👉 [BD_Venta.sql](./BD_Venta.sql)
+Contiene la **estructura de las tablas** y **datos de prueba** de la base de datos:
+
+- Tablas relacionales con integridad referencial.
+- Inserción de categorías, productos, clientes y ventas.
+- Simulación de datos de negocio.
+
+📄 [Ver archivo BD_Venta.sql](./BD_Venta.sql)
+
+---
+
+### 📁 `Consultas_BD_Venta.sql`
+
+Incluye un conjunto de **consultas SQL prácticas** para:
+
+- Consultar productos por estado, stock o descripción.
+- Actualizar información del inventario.
+- Realizar búsquedas con `LIKE` y patrones.
+- Agrupar datos (`GROUP BY`, `HAVING`, `ORDER BY`).
+- Unir múltiples tablas (`INNER JOIN`) para análisis más profundos.
+
+📄 [Ver archivo Consultas_BD_Venta.sql](./Consultas_BD_Venta.sql)
 
 ---
 
