@@ -63,4 +63,4 @@ Incluye un conjunto de **consultas SQL prácticas** para:
 
 ---
 
-© ICAIF | Proyecto académico para fines educativos.
+@ srg.info para ICAIF | Proyecto académico para fines educativos.
