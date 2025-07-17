@@ -59,7 +59,11 @@ Incluye un conjunto de **consultas SQL prácticas** para:
 - Agrupar datos (`GROUP BY`, `HAVING`, `ORDER BY`).
 - Unir múltiples tablas (`INNER JOIN`) para análisis más profundos.
 
-📄 [Ver archivo Consultas_BD_Venta.sql](./Consultas_BD_Venta.sql) ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+📄 [Ver archivo Consultas_BD_Venta.sql](./Consultas_BD_Venta.sql) 
+
+## 📄 Licencia
+
+Este script se distribuye con fines educativos y está bajo licencia MIT. ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ---
 ##
