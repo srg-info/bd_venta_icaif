@@ -1,6 +1,7 @@
 -- ======================================================
 --  Proyecto: VentasICAIF
 --  Autor: [serg.info]
+--  Licencia: [MIT]
 --  Descripción: Modelo relacional para BD de
 --  ventas con uso de SQL. Incluye inserciones y consultas.
 -- ======================================================
