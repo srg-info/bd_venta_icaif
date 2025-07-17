@@ -1,6 +1,7 @@
 -- ======================================================
 --  Proyecto: Consultas_BD_Venta
---  Autor: [serg.info]
+--  Autor: [serg-info]
+--  Licencia: [MIT]
 --  Descripción: Consultas para BD de
 --  ventas con uso de SQL.
 -- ======================================================
