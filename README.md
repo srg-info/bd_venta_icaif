@@ -59,8 +59,8 @@ Incluye un conjunto de **consultas SQL prácticas** para:
 - Agrupar datos (`GROUP BY`, `HAVING`, `ORDER BY`).
 - Unir múltiples tablas (`INNER JOIN`) para análisis más profundos.
 
-📄 [Ver archivo Consultas_BD_Venta.sql](./Consultas_BD_Venta.sql)
+📄 [Ver archivo Consultas_BD_Venta.sql](./Consultas_BD_Venta.sql) ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ---
-
-@ srg.info para ICAIF | Proyecto académico para fines educativos.
+##
+@ srg-info | Proyecto académico para fines educativos con SQL .
